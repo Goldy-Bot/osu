@@ -97,7 +97,7 @@ class Osu(GoldyBot.Extension):
         await platter.send_message(
             embeds = [
                 GoldyBot.Embed(
-                    title = f"Background #{background_index + 1}",
+                    title = f"Seasonal Background #{background_index + 1}",
                     author = GoldyBot.EmbedAuthor(
                         name = background_data["user"]["username"],
                         url = f"https://osu.ppy.sh/users/{background_data['user']['id']}",
